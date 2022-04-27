@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A46F13F2819EFF000AA6295 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A46F13D2819EFF000AA6295 /* FirstViewController.swift */; };
+		5A46F1402819EFF000AA6295 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A46F13E2819EFF000AA6295 /* FirstViewController.xib */; };
+		5A46F1442819F07700AA6295 /* UIViewController+reuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A46F1432819F07700AA6295 /* UIViewController+reuseIdentifier.swift */; };
 		5A53767F280EB86100AF376C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53767E280EB86100AF376C /* AppDelegate.swift */; };
 		5A537681280EB86100AF376C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A537680280EB86100AF376C /* SceneDelegate.swift */; };
 		5A537683280EB86100AF376C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A537682280EB86100AF376C /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A46F13D2819EFF000AA6295 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5A46F13E2819EFF000AA6295 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		5A46F1432819F07700AA6295 /* UIViewController+reuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+reuseIdentifier.swift"; sourceTree = "<group>"; };
 		5A53767B280EB86100AF376C /* try-new-tech-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "try-new-tech-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A53767E280EB86100AF376C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A537680280EB86100AF376C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +54,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5A46F1412819EFF700AA6295 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A46F13D2819EFF000AA6295 /* FirstViewController.swift */,
+				5A46F13E2819EFF000AA6295 /* FirstViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A46F1422819F06000AA6295 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5A46F1432819F07700AA6295 /* UIViewController+reuseIdentifier.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		5A537672280EB86100AF376C = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +98,8 @@
 				5A537687280EB86100AF376C /* Assets.xcassets */,
 				5A537689280EB86100AF376C /* LaunchScreen.storyboard */,
 				5A53768C280EB86100AF376C /* Info.plist */,
+				5A46F1412819EFF700AA6295 /* View */,
+				5A46F1422819F06000AA6295 /* Extension */,
 			);
 			path = "try-new-tech-ios-app";
 			sourceTree = "<group>";
@@ -149,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A53768B280EB86100AF376C /* LaunchScreen.storyboard in Resources */,
+				5A46F1402819EFF000AA6295 /* FirstViewController.xib in Resources */,
 				5A537688280EB86100AF376C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +231,8 @@
 				5A537683280EB86100AF376C /* ViewController.swift in Sources */,
 				5A53767F280EB86100AF376C /* AppDelegate.swift in Sources */,
 				5A537681280EB86100AF376C /* SceneDelegate.swift in Sources */,
+				5A46F1442819F07700AA6295 /* UIViewController+reuseIdentifier.swift in Sources */,
+				5A46F13F2819EFF000AA6295 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
