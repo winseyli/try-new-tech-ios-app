@@ -15,14 +15,16 @@
 		5A537683280EB86100AF376C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A537682280EB86100AF376C /* ViewController.swift */; };
 		5A537688280EB86100AF376C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A537687280EB86100AF376C /* Assets.xcassets */; };
 		5A53768B280EB86100AF376C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A537689280EB86100AF376C /* LaunchScreen.storyboard */; };
-		71E25A2EBF9FDA9E10D82207 /* Pods_try_new_tech_ios_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DAACA983707700E331FA86 /* Pods_try_new_tech_ios_app.framework */; };
+		5DEA05B9200A09AA79B03666 /* Pods_TryNewTechApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341D63DD1FC0C5C3D40B0783 /* Pods_TryNewTechApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		341D63DD1FC0C5C3D40B0783 /* Pods_TryNewTechApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryNewTechApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2FD10621D30656DBF859DA /* Pods-TryNewTechApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryNewTechApp.release.xcconfig"; path = "Target Support Files/Pods-TryNewTechApp/Pods-TryNewTechApp.release.xcconfig"; sourceTree = "<group>"; };
 		5A46F13D2819EFF000AA6295 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		5A46F13E2819EFF000AA6295 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		5A46F1432819F07700AA6295 /* UIViewController+reuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+reuseIdentifier.swift"; sourceTree = "<group>"; };
-		5A53767B280EB86100AF376C /* try-new-tech-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "try-new-tech-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A53767B280EB86100AF376C /* TryNewTechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryNewTechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A53767E280EB86100AF376C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A537680280EB86100AF376C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5A537682280EB86100AF376C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,7 +33,7 @@
 		5A53768C280EB86100AF376C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B71E02BBE5733C65FF2E4D2 /* Pods-try-new-tech-ios-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-try-new-tech-ios-app.debug.xcconfig"; path = "Target Support Files/Pods-try-new-tech-ios-app/Pods-try-new-tech-ios-app.debug.xcconfig"; sourceTree = "<group>"; };
 		6B9ECF336B3E4AE0837977E8 /* Pods-try-new-tech-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-try-new-tech-ios-app.release.xcconfig"; path = "Target Support Files/Pods-try-new-tech-ios-app/Pods-try-new-tech-ios-app.release.xcconfig"; sourceTree = "<group>"; };
-		96DAACA983707700E331FA86 /* Pods_try_new_tech_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_try_new_tech_ios_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC68D8073FEC454019D57F3E /* Pods-TryNewTechApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryNewTechApp.debug.xcconfig"; path = "Target Support Files/Pods-TryNewTechApp/Pods-TryNewTechApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71E25A2EBF9FDA9E10D82207 /* Pods_try_new_tech_ios_app.framework in Frameworks */,
+				5DEA05B9200A09AA79B03666 /* Pods_TryNewTechApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +51,7 @@
 		36CFAB89CB81BDE51F5DABFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				96DAACA983707700E331FA86 /* Pods_try_new_tech_ios_app.framework */,
+				341D63DD1FC0C5C3D40B0783 /* Pods_TryNewTechApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,7 +76,7 @@
 		5A537672280EB86100AF376C = {
 			isa = PBXGroup;
 			children = (
-				5A53767D280EB86100AF376C /* try-new-tech-ios-app */,
+				5A53767D280EB86100AF376C /* TryNewTechApp */,
 				5A53767C280EB86100AF376C /* Products */,
 				F217550578619E11E45408A4 /* Pods */,
 				36CFAB89CB81BDE51F5DABFC /* Frameworks */,
@@ -84,12 +86,12 @@
 		5A53767C280EB86100AF376C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A53767B280EB86100AF376C /* try-new-tech-ios-app.app */,
+				5A53767B280EB86100AF376C /* TryNewTechApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A53767D280EB86100AF376C /* try-new-tech-ios-app */ = {
+		5A53767D280EB86100AF376C /* TryNewTechApp */ = {
 			isa = PBXGroup;
 			children = (
 				5A53767E280EB86100AF376C /* AppDelegate.swift */,
@@ -101,7 +103,7 @@
 				5A46F1412819EFF700AA6295 /* View */,
 				5A46F1422819F06000AA6295 /* Extension */,
 			);
-			path = "try-new-tech-ios-app";
+			path = TryNewTechApp;
 			sourceTree = "<group>";
 		};
 		F217550578619E11E45408A4 /* Pods */ = {
@@ -109,6 +111,8 @@
 			children = (
 				5B71E02BBE5733C65FF2E4D2 /* Pods-try-new-tech-ios-app.debug.xcconfig */,
 				6B9ECF336B3E4AE0837977E8 /* Pods-try-new-tech-ios-app.release.xcconfig */,
+				BC68D8073FEC454019D57F3E /* Pods-TryNewTechApp.debug.xcconfig */,
+				4F2FD10621D30656DBF859DA /* Pods-TryNewTechApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -116,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A53767A280EB86100AF376C /* try-new-tech-ios-app */ = {
+		5A53767A280EB86100AF376C /* TryNewTechApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A53768F280EB86100AF376C /* Build configuration list for PBXNativeTarget "try-new-tech-ios-app" */;
+			buildConfigurationList = 5A53768F280EB86100AF376C /* Build configuration list for PBXNativeTarget "TryNewTechApp" */;
 			buildPhases = (
 				6F91B6A6B89779AFCFA065C1 /* [CP] Check Pods Manifest.lock */,
 				5A537677280EB86100AF376C /* Sources */,
@@ -130,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "try-new-tech-ios-app";
+			name = TryNewTechApp;
 			productName = "try-new-tech-ios-app";
-			productReference = 5A53767B280EB86100AF376C /* try-new-tech-ios-app.app */;
+			productReference = 5A53767B280EB86100AF376C /* TryNewTechApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A537676280EB86100AF376C /* Build configuration list for PBXProject "try-new-tech-ios-app" */;
+			buildConfigurationList = 5A537676280EB86100AF376C /* Build configuration list for PBXProject "TryNewTechApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A53767A280EB86100AF376C /* try-new-tech-ios-app */,
+				5A53767A280EB86100AF376C /* TryNewTechApp */,
 			);
 		};
 /* End PBXProject section */
@@ -188,15 +192,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-try-new-tech-ios-app/Pods-try-new-tech-ios-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TryNewTechApp/Pods-TryNewTechApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-try-new-tech-ios-app/Pods-try-new-tech-ios-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-TryNewTechApp/Pods-TryNewTechApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-try-new-tech-ios-app/Pods-try-new-tech-ios-app-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TryNewTechApp/Pods-TryNewTechApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6F91B6A6B89779AFCFA065C1 /* [CP] Check Pods Manifest.lock */ = {
@@ -214,7 +218,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-try-new-tech-ios-app-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TryNewTechApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,14 +370,14 @@
 		};
 		5A537690280EB86100AF376C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B71E02BBE5733C65FF2E4D2 /* Pods-try-new-tech-ios-app.debug.xcconfig */;
+			baseConfigurationReference = BC68D8073FEC454019D57F3E /* Pods-TryNewTechApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "try-new-tech-ios-app/Info.plist";
+				INFOPLIST_FILE = TryNewTechApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -383,7 +387,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "winsey.try-new-tech-ios-app";
+				PRODUCT_BUNDLE_IDENTIFIER = winsey.tryNewTechApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -393,14 +397,14 @@
 		};
 		5A537691280EB86100AF376C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B9ECF336B3E4AE0837977E8 /* Pods-try-new-tech-ios-app.release.xcconfig */;
+			baseConfigurationReference = 4F2FD10621D30656DBF859DA /* Pods-TryNewTechApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "try-new-tech-ios-app/Info.plist";
+				INFOPLIST_FILE = TryNewTechApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -410,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "winsey.try-new-tech-ios-app";
+				PRODUCT_BUNDLE_IDENTIFIER = winsey.tryNewTechApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -421,7 +425,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A537676280EB86100AF376C /* Build configuration list for PBXProject "try-new-tech-ios-app" */ = {
+		5A537676280EB86100AF376C /* Build configuration list for PBXProject "TryNewTechApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A53768D280EB86100AF376C /* Debug */,
@@ -430,7 +434,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A53768F280EB86100AF376C /* Build configuration list for PBXNativeTarget "try-new-tech-ios-app" */ = {
+		5A53768F280EB86100AF376C /* Build configuration list for PBXNativeTarget "TryNewTechApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A537690280EB86100AF376C /* Debug */,
