@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A40AA1A2819FA4B00DBCE1F /* TryNewTechAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A40AA192819FA4B00DBCE1F /* TryNewTechAppUITests.swift */; };
+		5A40AA232819FB5900DBCE1F /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A40AA222819FB5900DBCE1F /* SnapshotHelper.swift */; };
 		5A46F13F2819EFF000AA6295 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A46F13D2819EFF000AA6295 /* FirstViewController.swift */; };
 		5A46F1402819EFF000AA6295 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A46F13E2819EFF000AA6295 /* FirstViewController.xib */; };
 		5A46F1442819F07700AA6295 /* UIViewController+reuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A46F1432819F07700AA6295 /* UIViewController+reuseIdentifier.swift */; };
@@ -18,9 +20,22 @@
 		5DEA05B9200A09AA79B03666 /* Pods_TryNewTechApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341D63DD1FC0C5C3D40B0783 /* Pods_TryNewTechApp.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5A40AA1D2819FA4B00DBCE1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A537673280EB86100AF376C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A53767A280EB86100AF376C;
+			remoteInfo = TryNewTechApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		341D63DD1FC0C5C3D40B0783 /* Pods_TryNewTechApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryNewTechApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2FD10621D30656DBF859DA /* Pods-TryNewTechApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryNewTechApp.release.xcconfig"; path = "Target Support Files/Pods-TryNewTechApp/Pods-TryNewTechApp.release.xcconfig"; sourceTree = "<group>"; };
+		5A40AA172819FA4B00DBCE1F /* TryNewTechAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryNewTechAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A40AA192819FA4B00DBCE1F /* TryNewTechAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryNewTechAppUITests.swift; sourceTree = "<group>"; };
+		5A40AA222819FB5900DBCE1F /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		5A46F13D2819EFF000AA6295 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		5A46F13E2819EFF000AA6295 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		5A46F1432819F07700AA6295 /* UIViewController+reuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+reuseIdentifier.swift"; sourceTree = "<group>"; };
@@ -37,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5A40AA142819FA4B00DBCE1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A537678280EB86100AF376C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,6 +76,15 @@
 				341D63DD1FC0C5C3D40B0783 /* Pods_TryNewTechApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A40AA182819FA4B00DBCE1F /* TryNewTechAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A40AA222819FB5900DBCE1F /* SnapshotHelper.swift */,
+				5A40AA192819FA4B00DBCE1F /* TryNewTechAppUITests.swift */,
+			);
+			path = TryNewTechAppUITests;
 			sourceTree = "<group>";
 		};
 		5A46F1412819EFF700AA6295 /* View */ = {
@@ -77,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				5A53767D280EB86100AF376C /* TryNewTechApp */,
+				5A40AA182819FA4B00DBCE1F /* TryNewTechAppUITests */,
 				5A53767C280EB86100AF376C /* Products */,
 				F217550578619E11E45408A4 /* Pods */,
 				36CFAB89CB81BDE51F5DABFC /* Frameworks */,
@@ -87,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				5A53767B280EB86100AF376C /* TryNewTechApp.app */,
+				5A40AA172819FA4B00DBCE1F /* TryNewTechAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +153,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5A40AA162819FA4B00DBCE1F /* TryNewTechAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A40AA212819FA4B00DBCE1F /* Build configuration list for PBXNativeTarget "TryNewTechAppUITests" */;
+			buildPhases = (
+				5A40AA132819FA4B00DBCE1F /* Sources */,
+				5A40AA142819FA4B00DBCE1F /* Frameworks */,
+				5A40AA152819FA4B00DBCE1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A40AA1E2819FA4B00DBCE1F /* PBXTargetDependency */,
+			);
+			name = TryNewTechAppUITests;
+			productName = TryNewTechAppUITests;
+			productReference = 5A40AA172819FA4B00DBCE1F /* TryNewTechAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		5A53767A280EB86100AF376C /* TryNewTechApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A53768F280EB86100AF376C /* Build configuration list for PBXNativeTarget "TryNewTechApp" */;
@@ -149,6 +200,10 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					5A40AA162819FA4B00DBCE1F = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 5A53767A280EB86100AF376C;
+					};
 					5A53767A280EB86100AF376C = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -168,11 +223,19 @@
 			projectRoot = "";
 			targets = (
 				5A53767A280EB86100AF376C /* TryNewTechApp */,
+				5A40AA162819FA4B00DBCE1F /* TryNewTechAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5A40AA152819FA4B00DBCE1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A537679280EB86100AF376C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +291,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5A40AA132819FA4B00DBCE1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A40AA1A2819FA4B00DBCE1F /* TryNewTechAppUITests.swift in Sources */,
+				5A40AA232819FB5900DBCE1F /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A537677280EB86100AF376C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +314,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5A40AA1E2819FA4B00DBCE1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A53767A280EB86100AF376C /* TryNewTechApp */;
+			targetProxy = 5A40AA1D2819FA4B00DBCE1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		5A537689280EB86100AF376C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -254,6 +334,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5A40AA1F2819FA4B00DBCE1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = winsey.TryNewTechAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryNewTechApp;
+			};
+			name = Debug;
+		};
+		5A40AA202819FA4B00DBCE1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = winsey.TryNewTechAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryNewTechApp;
+			};
+			name = Release;
+		};
 		5A53768D280EB86100AF376C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -425,6 +537,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5A40AA212819FA4B00DBCE1F /* Build configuration list for PBXNativeTarget "TryNewTechAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A40AA1F2819FA4B00DBCE1F /* Debug */,
+				5A40AA202819FA4B00DBCE1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5A537676280EB86100AF376C /* Build configuration list for PBXProject "TryNewTechApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

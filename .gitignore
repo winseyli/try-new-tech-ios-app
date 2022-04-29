@@ -5,3 +5,7 @@ DerivedData/
 
 # Cocoapods
 Pods/
+
+# Fastlane
+fastlane/screenshots/en*/*.png
+fastlane/screenshots/*.html
